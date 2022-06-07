@@ -1,4 +1,4 @@
-import {NULL} from "mysql/lib/protocol/constants/types";
+let {NULL} = require("mysql/lib/protocol/constants/types");
 
 class User {
     constructor() {}

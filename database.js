@@ -1,5 +1,5 @@
-import mysql from "mysql";
-import env from './env';
+let mysql = require("mysql");
+let env = require('./env');
 
 const pool = mysql.createPool({
     connectionLimit : env.connectionLimit,
