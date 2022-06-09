@@ -1,6 +1,6 @@
-import express from "express";
-import db from "../database";
-import User from "../model/user";
+let express = require("express");
+let db = require("../database");
+let User = require("../model/user");
 
 const bcrypt = require('bcrypt');
 const util  = require('../helper/util');

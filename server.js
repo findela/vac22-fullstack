@@ -1,4 +1,4 @@
-import app from "./app";
+let app = require("./app");
 let http = require('http');
 
 //Use system configuration for port or use 6001 by default.

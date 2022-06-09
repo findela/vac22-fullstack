@@ -1,8 +1,8 @@
-import express from "express";
-import bodyparser from "body-parser";
-import cors from "cors";
+let express = require("express");
+let bodyparser = require("body-parser");
+let cors = require("cors");
 
-import user from "./controller/user";
+let user = require("./controller/user");
 
 const app = express();
 const extension = '/api/v1';

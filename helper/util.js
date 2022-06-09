@@ -1,4 +1,4 @@
-import env from '../env';
+let env = require('../env');
 const mysql = require('mysql');
 
 module.exports = {
