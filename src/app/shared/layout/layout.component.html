@@ -1,6 +1,20 @@
-<div class="container-fluid my-3">
-  <nav class="navbar w-100 high-z-index app-header px-0">
-    In Blank Layout
+<ng-container>
+  <nav class="nav bg-light py-2 px-4 d-flex justify-content-between w-100">
+    <section class="d-flex my-auto justify-content-start">
+      <a [href]="'/'" class="d-inline-flex text-dark text-decoration-none">
+        <img src="assets/images/liberate-logo.svg" [width]="128" class="my-auto" alt="liberate-logo" />
+      </a>
+    </section>
+    <section class="my-auto d-flex justify-content-center">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled">Disabled</a>
+    </section>
+    <section class="d-flex justify-content-end">
+      <a class="btn btn-link">Continue Login</a>
+      <button class="btn btn-theme-primary">Signup, It's Free!</button>
+    </section>
   </nav>
   <router-outlet></router-outlet>
-</div>
+</ng-container>
